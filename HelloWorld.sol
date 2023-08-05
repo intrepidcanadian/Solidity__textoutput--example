@@ -21,5 +21,7 @@ contract HelloWorld {
         if(owner == msg.sender) {   
         return greeting = "Hello, world!";
         }       
+        return greeting = "Test";
+               
     }
 }
